@@ -13,7 +13,11 @@
       "supermarket": "https://supermarket.devfwh.lan"
     }
   },
-  "skip_phases": [lint, syntax, unit],
+  "skip_phases": [
+    "lint",
+    "syntax",
+    "unit"
+  ],
   "job_dispatch": {
     "version": "v2"
   },
